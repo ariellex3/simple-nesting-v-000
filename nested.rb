@@ -16,10 +16,7 @@ def hopper
         }
      }
 
-programmer_hash.delete(:alan_kay)
-programmer_hash.delete(:dennis_ritchie)
-
-return programmer_hash
+return :grace_hopper[:known_for, :languages]
 
 end
 
